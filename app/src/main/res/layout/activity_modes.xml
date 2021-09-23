@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#8FC5EF"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgOne"
+                android:layout_width="500dp"
+                android:layout_height="200dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/unrated"/>
+
+            <Button
+                android:id="@+id/mode1BTN"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/imgOne"
+                android:layout_centerHorizontal="true"
+                android:backgroundTint="#511281"
+                android:text="EXPLORE UNRATED"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgTwo"
+                android:layout_width="500dp"
+                android:layout_height="200dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/comp"/>
+
+            <Button
+                android:id="@+id/mode2BTN"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/imgTwo"
+                android:layout_centerHorizontal="true"
+                android:backgroundTint="#511281"
+                android:text="EXPLORE COMPETITIVE"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgThree"
+                android:layout_width="500dp"
+                android:layout_height="200dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/spike"/>
+
+            <Button
+                android:id="@+id/mode3BTN"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/imgThree"
+                android:layout_centerHorizontal="true"
+                android:backgroundTint="#511281"
+                android:text="EXPLORE SPIKE RUSH"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgFour"
+                android:layout_width="500dp"
+                android:layout_height="200dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/repli"/>
+
+            <Button
+                android:id="@+id/mode4BTN"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/imgFour"
+                android:layout_centerHorizontal="true"
+                android:backgroundTint="#511281"
+                android:text="EXPLORE REPLICATION"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgFive"
+                android:layout_width="500dp"
+                android:layout_height="200dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/death"/>
+
+            <Button
+                android:id="@+id/mode5BTN"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/imgFive"
+                android:layout_centerHorizontal="true"
+                android:backgroundTint="#511281"
+                android:text="EXPLORE DEATHMATCH"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgSix"
+                android:layout_width="500dp"
+                android:layout_height="200dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/esca"/>
+
+            <Button
+                android:id="@+id/mode6BTN"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/imgSix"
+                android:layout_centerHorizontal="true"
+                android:backgroundTint="#511281"
+                android:text="EXPLORE ESCALATION"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgSeven"
+                android:layout_width="900dp"
+                android:layout_height="200dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/snow"/>
+
+            <Button
+                android:id="@+id/mode7BTN"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/imgSeven"
+                android:layout_centerHorizontal="true"
+                android:backgroundTint="#511281"
+                android:text="EXPLORE SNOW BALL FIGHT"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgEight"
+                android:layout_width="500dp"
+                android:layout_height="200dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/range"/>
+
+            <Button
+                android:id="@+id/mode8BTN"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/imgEight"
+                android:layout_centerHorizontal="true"
+                android:backgroundTint="#511281"
+                android:text="EXPLORE RANGE"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgLow"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="50dp"
+                android:src="@drawable/l1" />
+
+            <Button
+                android:id="@+id/logBtn_mode"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:backgroundTint="#511281"
+                android:text="LOG OUT"
+                android:textStyle="normal"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</ScrollView>

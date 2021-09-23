@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2F5D62"
+        tools:context=".message_screen">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgup"
+                android:layout_width="400dp"
+                android:layout_height="350dp"
+                android:layout_centerHorizontal="true"
+
+                android:src="@drawable/l1" />
+
+            <TextView
+                android:id="@+id/txtMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@+id/imgup"
+                android:layout_centerInParent="true"
+                android:padding="8dp"
+                android:textSize="20sp"
+                android:text="Hello Android"
+                android:textColor="#DFEEEA"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/txtMessage"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="LET'S EXPLORE"
+                android:textStyle="normal"
+                android:textSize="20dp"
+                android:textColor="#DFEEEA"
+                android:backgroundTint="#232323"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgLow"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="50dp"
+                android:src="@drawable/valo" />
+
+            <Button
+                android:id="@+id/btnlog"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:backgroundTint="#511281"
+                android:text="LOG OUT"
+                android:textStyle="normal"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"/>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

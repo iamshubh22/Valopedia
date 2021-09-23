@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PAGE_FIRST"
+    android:fitsSystemWindows="true"
+    android:id="@+id/drawer_layout"
+    tools:openDrawer="start">
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_gravity="start"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/main_menu" />
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tool"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#00008577"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/txtMAIN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="60dp"
+                android:text="VALOPEDIA"
+                android:textColor="#F4EEE8"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:id="@+id/spacerone"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/txtMAIN" />
+
+            <TextView
+                android:id="@+id/txtSUB"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spacerone"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="serif"
+                android:text="Your Ultimate Guide For Valorant"
+                android:textColor="#66DE93"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/imgONE"
+                android:layout_width="500dp"
+                android:layout_height="400dp"
+                android:layout_below="@+id/txtSUB"
+                android:layout_centerInParent="true"
+                android:src="@drawable/v" />
+
+
+            <TextView
+                android:id="@+id/txtADD"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgONE"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="serif"
+                android:text="Valorant is a free-to-play first-person hero shooter developed and published by Riot Games, for Microsoft Windows.The official release came on June 2, 2020. The development of the game started in 2014.Players play as one of a set of agents . In the main game mode, players are assigned to either the attacking or defending team with each team having five players on it. Agents have unique abilities, each requiring charges, as well as a unique ultimate ability that requires charging through kills, deaths, or spike actions. Every player starts each round with a pistol and one or more signature ability charges.Other weapons and ability charges can be purchased using an in-game economic system that awards money based on the outcome of the previous round, any kills the player is responsible for, and any actions taken with the spike."
+                android:textColor="#F4EEE8"
+                android:textSize="17sp"
+                android:textStyle="normal" />
+
+            <Space
+                android:id="@+id/spacerfive"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/txtADD" />
+
+
+
+            <TextView
+                android:id="@+id/txtalpha"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spacerfive"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="serif"
+                android:text="HOW THIS GUIDE WILL HELP YOU??"
+                android:textColor="#F4EEE8"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:id="@+id/spacethree"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/txtalpha" />
+
+            <TextView
+                android:id="@+id/txtbeta"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spacethree"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="serif"
+                android:text="This Guide will contain a good knowledge about the various agents that are present in the Valorant game and it will also contain the various skills and also about the various modes and how to download it on computer with  the settings and basics needs."
+                android:textColor="#F4EEE8"
+                android:textSize="17sp"
+                android:textStyle="normal" />
+
+            <Space
+                android:id="@+id/spacesix"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/txtbeta" />
+
+
+
+
+            <TextView
+                android:id="@+id/txtNAME"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/spacesix"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:text="Your Name Please!"
+                android:textColor="#66DE93"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/etNAME"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtNAME"
+                android:layout_marginLeft="5dp"
+                android:hint="Enter Your Name Here"
+                android:inputType="text" />
+
+
+            <Space
+                android:id="@+id/spacertwo"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/etNAME" />
+
+            <TextView
+                android:id="@+id/txtid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/spacertwo"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:text="Your Valorant Id Please!"
+                android:textColor="#66DE93"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/etid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtid"
+                android:layout_marginLeft="5dp"
+                android:hint="Enter Your Valorant Id Here"
+                android:inputType="text" />
+            <Space
+                android:id="@+id/spacerfour"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_below="@+id/etid" />
+
+            <Button
+                android:id="@+id/btnONE"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_below="@+id/spacerfour"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="#126E82"
+                android:text="Enter My World"
+                android:textColor="#F05945"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/btntwo"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/btnONE"
+                android:backgroundTint="#126E82"
+                android:text="Exit App!"
+                android:textColor="#F05945"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+
+
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

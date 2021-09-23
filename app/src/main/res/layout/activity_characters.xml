@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#907FA4"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgAstra"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/astra"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/txtAstra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ASTRA"
+                android:layout_toRightOf="@id/imgAstra"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="40dp"/>
+
+            <Button
+                android:id="@+id/btnAstra"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_toRightOf="@id/imgAstra"
+                android:layout_below="@id/txtAstra"
+                android:layout_alignParentRight="true"
+                android:background="@color/colorPrimary"
+                android:text="CHECKOUT"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgBrim"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/brim"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/txtBrim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BRIMSTONE"
+                android:layout_toRightOf="@id/imgBrim"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="60dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="40dp"/>
+
+            <Button
+                android:id="@+id/btnBrim"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_toRightOf="@id/imgBrim"
+                android:layout_below="@id/txtBrim"
+                android:layout_alignParentRight="true"
+                android:background="@color/colorPrimary"
+                android:text="CHECKOUT"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgBreach"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/breach"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/txtBreach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BREACH"
+                android:layout_toRightOf="@id/imgBreach"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="40dp"/>
+
+            <Button
+                android:id="@+id/btnBreach"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_toRightOf="@id/imgBreach"
+                android:layout_below="@id/txtBreach"
+                android:layout_alignParentRight="true"
+                android:background="@color/colorPrimary"
+                android:text="CHECKOUT"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgCypher"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/cypher"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/txtCypher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CYPHER"
+                android:layout_toRightOf="@id/imgCypher"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="40dp"/>
+
+            <Button
+                android:id="@+id/btnCypher"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_toRightOf="@id/imgCypher"
+                android:layout_below="@id/txtCypher"
+                android:layout_alignParentRight="true"
+                android:background="@color/colorPrimary"
+                android:text="CHECKOUT"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgJett"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/jett"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/txtJett"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JETT"
+                android:layout_toRightOf="@id/imgJett"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="40dp"/>
+
+            <Button
+                android:id="@+id/btnJett"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_toRightOf="@id/imgJett"
+                android:layout_below="@id/txtJett"
+                android:layout_alignParentRight="true"
+                android:background="@color/colorPrimary"
+                android:text="CHECKOUT"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgKayo"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/kayo"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/txtKayo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KAY/O"
+                android:layout_toRightOf="@id/imgKayo"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="40dp"/>
+
+            <Button
+                android:id="@+id/btnKayo"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_toRightOf="@id/imgKayo"
+                android:layout_below="@id/txtKayo"
+                android:layout_alignParentRight="true"
+                android:background="@color/colorPrimary"
+                android:text="CHECKOUT"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgKill"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/kill"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/txtKill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KILLJOY"
+                android:layout_toRightOf="@id/imgKill"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="40dp"/>
+
+            <Button
+                android:id="@+id/btnKill"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_toRightOf="@id/imgKill"
+                android:layout_below="@id/txtKill"
+                android:layout_alignParentRight="true"
+                android:background="@color/colorPrimary"
+                android:text="CHECKOUT"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgOmen"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/omen"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/txtOmen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OMEN"
+                android:layout_toRightOf="@id/imgOmen"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="40dp"/>
+
+            <Button
+                android:id="@+id/btnOmen"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_toRightOf="@id/imgOmen"
+                android:layout_below="@id/txtOmen"
+                android:layout_alignParentRight="true"
+                android:background="@color/colorPrimary"
+                android:text="CHECKOUT"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgPheonix"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/pheo"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/txtPheonix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PHEONIX"
+                android:layout_toRightOf="@id/imgPheonix"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="40dp"/>
+
+            <Button
+                android:id="@+id/btnPheonix"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_toRightOf="@id/imgPheonix"
+                android:layout_below="@id/txtPheonix"
+                android:layout_alignParentRight="true"
+                android:background="@color/colorPrimary"
+                android:text="CHECKOUT"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgSage"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/sage"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/txtSage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SAGE"
+                android:layout_toRightOf="@id/imgSage"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="40dp"/>
+
+            <Button
+                android:id="@+id/btnSage"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_toRightOf="@id/imgSage"
+                android:layout_below="@id/txtSage"
+                android:layout_alignParentRight="true"
+                android:background="@color/colorPrimary"
+                android:text="CHECKOUT"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgRaze"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/raze"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/txtRaze"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RAZE"
+                android:layout_toRightOf="@id/imgRaze"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="40dp"/>
+
+            <Button
+                android:id="@+id/btnRaze"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_toRightOf="@id/imgRaze"
+                android:layout_below="@id/txtRaze"
+                android:layout_alignParentRight="true"
+                android:background="@color/colorPrimary"
+                android:text="CHECKOUT"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgReyna"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/reyna"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/txtReyna"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="REYNA"
+                android:layout_toRightOf="@id/imgReyna"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="40dp"/>
+
+            <Button
+                android:id="@+id/btnReyna"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_toRightOf="@id/imgReyna"
+                android:layout_below="@id/txtReyna"
+                android:layout_alignParentRight="true"
+                android:background="@color/colorPrimary"
+                android:text="CHECKOUT"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgSkye"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/skye"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/txtSkye"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SKYE"
+                android:layout_toRightOf="@id/imgSkye"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="40dp"/>
+
+            <Button
+                android:id="@+id/btnSkye"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_toRightOf="@id/imgSkye"
+                android:layout_below="@id/txtSkye"
+                android:layout_alignParentRight="true"
+                android:background="@color/colorPrimary"
+                android:text="CHECKOUT"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgViper"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/viper"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/txtViper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VIPER"
+                android:layout_toRightOf="@id/imgViper"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="40dp"/>
+
+            <Button
+                android:id="@+id/btnViper"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_toRightOf="@id/imgViper"
+                android:layout_below="@id/txtViper"
+                android:layout_alignParentRight="true"
+                android:background="@color/colorPrimary"
+                android:text="CHECKOUT"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgYoru"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/yoru"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/txtYoru"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YORU"
+                android:layout_toRightOf="@id/imgYoru"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="40dp"/>
+
+            <Button
+                android:id="@+id/btnYoru"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_toRightOf="@id/imgYoru"
+                android:layout_below="@id/txtYoru"
+                android:layout_alignParentRight="true"
+                android:background="@color/colorPrimary"
+                android:text="CHECKOUT"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgSova"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/sova"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/txtSova"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SOVA"
+                android:layout_toRightOf="@id/imgSova"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="40dp"/>
+
+            <Button
+                android:id="@+id/btnSova"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_toRightOf="@id/imgSova"
+                android:layout_below="@id/txtSova"
+                android:layout_alignParentRight="true"
+                android:background="@color/colorPrimary"
+                android:text="CHECKOUT"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgLow"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="50dp"
+                android:src="@drawable/l1" />
+
+            <Button
+                android:id="@+id/logBtn_charac"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:backgroundTint="#511281"
+                android:text="LOG OUT"
+                android:textStyle="normal"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"/>
+
+        </RelativeLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

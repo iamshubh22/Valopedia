@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#D5D2D2"
+    android:layout_height="match_parent"
+    tools:context=".gallery">
+
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3"
+        android:layout_margin="10dp"
+        android:columnWidth="100dp"
+        android:horizontalSpacing="25dp"
+        android:verticalSpacing="20dp"
+        android:gravity="center"
+        android:stretchMode="columnWidth"
+        android:id="@+id/gall1">
+
+
+
+
+    </GridView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
