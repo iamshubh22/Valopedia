@@ -47,6 +47,24 @@
                 android:layout_marginRight="-47dp"
                 android:src="@drawable/l1" />
         </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:lineSpacingExtra="5dp"
+                android:textStyle="normal"
+                android:textColor="#EFE378"
+                android:layout_margin="10dp"
+                android:fontFamily="monospace"
+                android:text="Hello Everyone these are our top 20 suggested that you can listen while playing valorant or add them to your videos of your gameplay! "/>
+
+        </LinearLayout>
 
         <GridLayout
             android:layout_width="match_parent"
@@ -129,7 +147,7 @@
 
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/learn1"
+                android:id="@+id/cold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
@@ -141,28 +159,28 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:padding="16dp"
-                    android:gravity="center">
+                    android:orientation="horizontal"
+                    android:padding="16dp">
 
                     <ImageView
                         android:layout_width="100dp"
-                        android:layout_height="80dp"
-                        android:src="@drawable/gallery"/>
+                        android:layout_height="100dp"
+                        android:layout_marginRight="15dp"
+                        android:src="@drawable/cold"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="GALLERY"
-                        android:textSize="18sp"
+                        android:layout_marginTop="30dp"
+                        android:text="Cold"
+                        android:textSize="22sp"
                         android:textStyle="bold"
                         android:textColor="#19A564"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/download"
+                android:id="@+id/cradles"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
@@ -174,21 +192,21 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:padding="16dp"
-                    android:gravity="center">
+                    android:orientation="horizontal"
+                    android:padding="16dp">
 
                     <ImageView
                         android:layout_width="100dp"
-                        android:layout_height="80dp"
-                        android:src="@drawable/down"/>
+                        android:layout_height="100dp"
+                        android:layout_marginRight="15dp"
+                        android:src="@drawable/cradles"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="DOWNLOAD"
-                        android:textSize="18sp"
+                        android:layout_marginTop="30dp"
+                        android:text="Cradles"
+                        android:textSize="22sp"
                         android:textStyle="bold"
                         android:textColor="#19A564"/>
                 </LinearLayout>
@@ -196,7 +214,7 @@
 
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/chill"
+                android:id="@+id/name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
@@ -208,21 +226,21 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:padding="16dp"
-                    android:gravity="center">
+                    android:orientation="horizontal"
+                    android:padding="16dp">
 
                     <ImageView
                         android:layout_width="100dp"
-                        android:layout_height="80dp"
-                        android:src="@drawable/chill"/>
+                        android:layout_height="100dp"
+                        android:layout_marginRight="15dp"
+                        android:src="@drawable/name"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:text="CHILL ZONE"
-                        android:textSize="18sp"
+                        android:layout_marginTop="30dp"
+                        android:text="Remember The Name"
+                        android:textSize="22sp"
                         android:textStyle="bold"
                         android:textColor="#19A564"/>
                 </LinearLayout>

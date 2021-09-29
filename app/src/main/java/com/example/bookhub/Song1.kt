@@ -19,6 +19,7 @@ class Song1 : AppCompatActivity() {
     private var mp: MediaPlayer?=null
     private var currentSong : MutableList<Int> = mutableListOf(R.raw.legends)
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_song1)

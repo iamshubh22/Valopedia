@@ -10,22 +10,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BookHub">
-        <activity android:name=".ResetActivity"></activity>
+        <activity android:name=".Song5"></activity>
+        <activity android:name=".Song4" />
+        <activity android:name=".ResetActivity" />
         <activity android:name=".PasswordActivity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".LoginActivity2" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-        </activity>
+        <activity android:name=".LoginActivity2" />
         <activity
             android:name=".DBHelper"
             tools:ignore="Instantiatable" />
         <activity android:name=".Song3" />
         <activity android:name=".music">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name=".Song2" />
         <activity android:name=".Song1" />

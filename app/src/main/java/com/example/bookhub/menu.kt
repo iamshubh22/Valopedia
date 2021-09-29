@@ -73,7 +73,7 @@ class menu : AppCompatActivity() {
                 this@menu, "WELCOME TO MUSIC GALLERY!!",
                 Toast.LENGTH_SHORT
             ).show()
-            val intent3= Intent(this@menu,music_list::class.java)
+            val intent3= Intent(this@menu,music::class.java)
             startActivity(intent3)
         }
 

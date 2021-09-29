@@ -17,11 +17,9 @@ class music : AppCompatActivity() {
     lateinit var btnlog: Button
     lateinit var modes1: CardView
     lateinit var character: CardView
-    lateinit var learn1: CardView
-    lateinit var download: CardView
-    lateinit var chill: CardView
-    lateinit var video: CardView
-    lateinit var mysong: MediaPlayer
+    lateinit var cold: CardView
+    lateinit var cradles:CardView
+    lateinit var name:CardView
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -32,11 +30,9 @@ class music : AppCompatActivity() {
         btnlog = findViewById(R.id.btnlog)
         modes1 = findViewById(R.id.modes1)
         character = findViewById(R.id.character)
-        learn1 = findViewById(R.id.learn1)
-        download = findViewById(R.id.download)
-        chill = findViewById(R.id.chill)
-        video = findViewById(R.id.video)
-
+        cold=findViewById(R.id.cold)
+        cradles=findViewById(R.id.cradles)
+        name=findViewById(R.id.name)
 
 
 
@@ -62,6 +58,36 @@ class music : AppCompatActivity() {
             startActivity(intent2)
         }
 
+        cold.setOnClickListener()
+        {
+            Toast.makeText(
+                this@music, "Cold",
+                Toast.LENGTH_SHORT
+            ).show()
+            val intent3 = Intent(this@music, Song3::class.java)
+            startActivity(intent3)
+        }
+
+        cradles.setOnClickListener()
+        {
+            Toast.makeText(
+                this@music, "Cradles",
+                Toast.LENGTH_SHORT
+            ).show()
+            val intent4 = Intent(this@music, Song4::class.java)
+            startActivity(intent4)
+        }
+
+
+        name.setOnClickListener()
+        {
+            Toast.makeText(
+                this@music, "Remember The Name",
+                Toast.LENGTH_SHORT
+            ).show()
+            val intent5 = Intent(this@music, Song5::class.java)
+            startActivity(intent5)
+        }
 
     }
 }
