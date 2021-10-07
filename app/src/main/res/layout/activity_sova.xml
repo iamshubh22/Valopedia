@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#81A194"
+    tools:context=".sova">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:id="@+id/txtM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:text="SOVA"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imgtop"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="30dp"
+
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/sova" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:textColor="#ECE197"
+                android:textSize="17sp"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sova is a master archer who is able to bounce his arrows to scout enemies or kill them around corners. He also has a handy owl drown that can be used to mark where an enemy is.He can use his ability to track his opponents in combination with his ultimate, which allows him to fire three bursts of lightning through walls."/>
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:textSize="25sp"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="1)Owl Drone"/>
+
+            <TextView
+                android:layout_below="@+id/txt1"
+                android:layout_marginTop="15dp"
+                android:id="@+id/textView"
+                android:padding="10dp"
+                android:textColor="#474328"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EQUIP an owl drone. FIRE to deploy and take control of movement of the drone. While in control of the drone, FIRE to shoot a marking dart. This dart will reveal the location of any player struck by the dart." />
+
+            <TextView
+                android:id="@+id/c1"
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"
+                android:text="Checkout Video->"/>
+
+            <FrameLayout
+                android:id="@+id/f1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <VideoView
+                    android:id="@+id/videoView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="30dp"
+                    />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:textSize="25sp"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="2)Shock Bolt"/>
+
+            <TextView
+                android:layout_below="@+id/txt1"
+                android:layout_marginTop="15dp"
+                android:id="@+id/textView2"
+                android:padding="10dp"
+                android:textColor="#474328"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EQUIP a bow with a shock bolt. FIRE to send the explosive bolt forward, detonating upon collision and damaging players nearby. HOLD FIRE to extend the range of the projectile. ALTERNATE FIRE to add up to two bounces to this arrow." />
+
+            <TextView
+                android:id="@+id/c2"
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"
+                android:text="Checkout Video->"/>
+
+            <FrameLayout
+                android:id="@+id/f2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <VideoView
+                    android:id="@+id/videoView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="30dp"
+                    />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:textSize="25sp"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="3)Recon Bolt"/>
+
+            <TextView
+                android:layout_below="@+id/txt1"
+                android:layout_marginTop="15dp"
+                android:id="@+id/textView3"
+                android:padding="10dp"
+                android:textColor="#474328"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EQUIP a bow with recon bolt. FIRE to send the recon bolt forward, activating upon collision and revealing the location of nearby enemies caught in the line of sight of the bolt. Enemies can destroy this bolt. HOLD FIRE to extend the range of the projective. ALTERNATE FIRE to add up to two bounces to this arrow." />
+
+            <TextView
+                android:id="@+id/c3"
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"
+                android:text="Checkout Video->"/>
+
+            <FrameLayout
+                android:id="@+id/f3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <VideoView
+                    android:id="@+id/videoView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="30dp"
+                    />
+            </FrameLayout>
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:textSize="25sp"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="4)Hunter's Fury"/>
+
+            <TextView
+                android:layout_below="@+id/txt4"
+                android:layout_marginTop="15dp"
+                android:id="@+id/textView4"
+                android:padding="10dp"
+                android:textColor="#474328"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EQUIP a bow with three long-range, wall-piercing energy blasts. FIRE to release an energy blast in a line in front of Sova, dealing damage and revealing the location of enemies caught in the line. This ability can be RE-USED up to two more times while the ability timer is active." />
+
+            <TextView
+                android:id="@+id/c4"
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"
+                android:text="Checkout Video->"/>
+
+            <FrameLayout
+                android:id="@+id/f4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <VideoView
+                    android:id="@+id/videoView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="30dp"
+                    />
+            </FrameLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imgLow"
+                    android:layout_width="120dp"
+                    android:layout_height="90dp"
+                    android:layout_alignParentRight="true"
+
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/valo" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

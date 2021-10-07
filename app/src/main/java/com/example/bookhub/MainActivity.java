@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        setTitle("Valopedia->Register");
 
         username=(EditText)findViewById(R.id.user);
         password=(EditText)findViewById(R.id.user2);

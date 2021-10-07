@@ -95,7 +95,7 @@ class menu : AppCompatActivity() {
                 this@menu, "HAVE A GOOD DAY!!",
                 Toast.LENGTH_SHORT
             ).show()
-            val intent5= Intent(this@menu,LOGIN::class.java)
+            val intent5= Intent(this@menu,LoginActivity2::class.java)
             startActivity(intent5)
             finish()
         }

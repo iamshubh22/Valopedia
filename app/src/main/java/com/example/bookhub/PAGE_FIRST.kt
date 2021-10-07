@@ -1,6 +1,7 @@
 package com.example.bookhub
 
 import android.annotation.SuppressLint
+import android.app.ProgressDialog.show
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -29,6 +30,7 @@ class PAGE_FIRST : AppCompatActivity() {
     lateinit var intentM:Intent
     lateinit var intentL:Intent
     lateinit var intentI:Intent
+    lateinit var intentE: Intent
 
 
 
@@ -72,7 +74,7 @@ class PAGE_FIRST : AppCompatActivity() {
                         .show()
                 }
                 R.id.nav_log -> {
-                    intentL = Intent(this@PAGE_FIRST, LOGIN::class.java)
+                    intentL = Intent(this@PAGE_FIRST, LoginActivity2::class.java)
                     startActivity(intentL)
                     Toast.makeText(this@PAGE_FIRST, "HAVE A GOOD DAY", Toast.LENGTH_SHORT)
                         .show()
@@ -83,18 +85,18 @@ class PAGE_FIRST : AppCompatActivity() {
                     Toast.makeText(this@PAGE_FIRST, "MY PROFILE IS HERE", Toast.LENGTH_SHORT)
                         .show()
                 }
-                R.id.nav_connect ->
-                    Toast.makeText(this@PAGE_FIRST, "LET'S CONNECT", Toast.LENGTH_SHORT)
-                        .show()
                 R.id.nav_indian -> {
                     intentI = Intent(this@PAGE_FIRST, hindi::class.java)
                     startActivity(intentI)
                     Toast.makeText(this@PAGE_FIRST, "INDIAN STREAMERS PAGE", Toast.LENGTH_SHORT)
                         .show()
                 }
-                R.id.nav_foreign ->
+                R.id.nav_foreign -> {
+                    intentE = Intent(this@PAGE_FIRST, english::class.java)
+                    startActivity(intentE)
                     Toast.makeText(this@PAGE_FIRST, "FOREIGN STREAMERS PAGE", Toast.LENGTH_SHORT)
                         .show()
+                }
             }
 
             return@setNavigationItemSelectedListener true
@@ -154,7 +156,7 @@ class PAGE_FIRST : AppCompatActivity() {
                 this@PAGE_FIRST, "HAVE A GOOD DAY!!",
                 Toast.LENGTH_SHORT
             ).show()
-            val intent1= Intent(this@PAGE_FIRST,LOGIN::class.java)
+            val intent1= Intent(this@PAGE_FIRST,LoginActivity2::class.java)
             startActivity(intent1)
             finish()
         }

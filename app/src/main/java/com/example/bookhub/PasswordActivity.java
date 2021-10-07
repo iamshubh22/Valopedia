@@ -18,6 +18,7 @@ public class PasswordActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_password);
+        setTitle("Valopedia->Forgot Password");
         username = (EditText)findViewById(R.id.edit4);
         reset = (Button)findViewById(R.id.btnreset);
         myDB = new DBHelper(this);

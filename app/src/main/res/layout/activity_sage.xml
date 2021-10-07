@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#81A194"
+    tools:context=".sage">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:id="@+id/txtM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:text="SAGE"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imgtop"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="30dp"
+
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/sage" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:textColor="#ECE197"
+                android:textSize="17sp"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sage is currently the only “healer” in Valorant with a defensively-oriented kit, with a healing orb she can use on herself or an ally.She’s able to use ice abilities to slow and block off her enemies (her ice wall can also be used to boost allies to high ground).She has one of the most powerful ultimates in the game with a resurrection."/>
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:textSize="25sp"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="1)Barrier Orb"/>
+
+            <TextView
+                android:layout_below="@+id/txt1"
+                android:layout_marginTop="15dp"
+                android:id="@+id/textView"
+                android:padding="10dp"
+                android:textColor="#474328"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EQUIP a barrier orb. FIRE places a solid wall. ALT FIRE rotates the targeter." />
+
+            <TextView
+                android:id="@+id/c1"
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"
+                android:text="Checkout Video->"/>
+
+            <FrameLayout
+                android:id="@+id/f1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <VideoView
+                    android:id="@+id/videoView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="30dp"
+                    />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:textSize="25sp"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="2)Slow Orb"/>
+
+            <TextView
+                android:layout_below="@+id/txt1"
+                android:layout_marginTop="15dp"
+                android:id="@+id/textView2"
+                android:padding="10dp"
+                android:textColor="#474328"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EQUIP a slowing orb. FIRE to throw a slowing orb forward that detonates upon landing, creating a lingering field that slows players caught inside of it." />
+
+            <TextView
+                android:id="@+id/c2"
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"
+                android:text="Checkout Video->"/>
+
+            <FrameLayout
+                android:id="@+id/f2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <VideoView
+                    android:id="@+id/videoView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="30dp"
+                    />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:textSize="25sp"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="3)Heal Orb"/>
+
+            <TextView
+                android:layout_below="@+id/txt1"
+                android:layout_marginTop="15dp"
+                android:id="@+id/textView3"
+                android:padding="10dp"
+                android:textColor="#474328"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EQUIP a healing orb. FIRE with your crosshairs over a damaged ally to activate a heal-over-time on them. ALT FIRE while Sage is damaged to activate a self heal-over-time." />
+
+            <TextView
+                android:id="@+id/c3"
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"
+                android:text="Checkout Video->"/>
+
+            <FrameLayout
+                android:id="@+id/f3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <VideoView
+                    android:id="@+id/videoView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="30dp"
+                    />
+            </FrameLayout>
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:textSize="25sp"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="4)Resurrection"/>
+
+            <TextView
+                android:layout_below="@+id/txt4"
+                android:layout_marginTop="15dp"
+                android:id="@+id/textView4"
+                android:padding="10dp"
+                android:textColor="#474328"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EQUIP a resurrection ability. FIRE with your crosshairs placed over a dead ally to begin resurrecting them. After a brief channel, the ally will be brought back to life with full health." />
+
+            <TextView
+                android:id="@+id/c4"
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"
+                android:text="Checkout Video->"/>
+
+            <FrameLayout
+                android:id="@+id/f4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <VideoView
+                    android:id="@+id/videoView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="30dp"
+                    />
+            </FrameLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imgLow"
+                    android:layout_width="120dp"
+                    android:layout_height="90dp"
+                    android:layout_alignParentRight="true"
+
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/valo" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

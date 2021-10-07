@@ -23,7 +23,7 @@ class modes : AppCompatActivity() {
                 this@modes, "HAVE A GOOD DAY!!",
                 Toast.LENGTH_SHORT
             ).show()
-            val intent1= Intent(this@modes,LOGIN::class.java)
+            val intent1= Intent(this@modes,LoginActivity2::class.java)
             startActivity(intent1)
             finish()
         }

@@ -60,7 +60,7 @@ class message_screen : AppCompatActivity() {
                 this@message_screen, "HAVE A GOOD DAY!!",
                 Toast.LENGTH_SHORT
             ).show()
-            val intent1= Intent(this@message_screen,LOGIN::class.java)
+            val intent1= Intent(this@message_screen,LoginActivity2::class.java)
             startActivity(intent1)
             finish()
         }

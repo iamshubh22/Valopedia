@@ -37,10 +37,10 @@ public class ResetActivity extends AppCompatActivity {
                     if (checkpasswordupdate == true) {
                         Intent intent = new Intent(getApplicationContext(), LoginActivity2.class);
                         startActivity(intent);
-                        Toast.makeText(ResetActivity.this, "Password updates Succesfully", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(ResetActivity.this, "Password updated Succesfully", Toast.LENGTH_SHORT).show();
 
                     } else {
-                        Toast.makeText(ResetActivity.this, "Password not updates Succesfully", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(ResetActivity.this, "Password not updated Succesfully", Toast.LENGTH_SHORT).show();
 
                     }
                 }

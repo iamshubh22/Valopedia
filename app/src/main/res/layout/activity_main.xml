@@ -3,67 +3,68 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#8E7775"
     android:layout_height="match_parent"
-    android:background="#CC9C99A1"
-
     android:padding="10dp"
-
     tools:context=".MainActivity">
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:id="@+id/img2"
+        android:id="@+id/imgtop"
         android:src="@drawable/l1">
-
     </ImageView>
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/user"
-        android:hint="username"
-        android:textSize="25dp"
-        android:textColorHint="@color/black"
-        android:layout_below="@+id/img2">
+        android:hint="Enter Username"
+
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/imgtop">
     </EditText>
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/user2"
-        android:textColorHint="@color/black"
-        android:hint="Password"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Password"
 
-        android:textSize="25dp"
         android:layout_below="@+id/user">
     </EditText>
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/user3"
-        android:hint="R-enter your Password"
-        android:textColorHint="@color/black"
+        android:layout_marginTop="20dp"
+        android:hint="R-enter Your Password"
 
-        android:textSize="25dp"
         android:layout_below="@+id/user2">
     </EditText>
     <Button
         android:id="@+id/signup"
         android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
         android:layout_height="wrap_content"
-        android:text="Register"
+        android:text="Register Now!"
         android:textAllCaps="false"
-        android:backgroundTint="@color/black"
+        android:textColor="@color/colorPrimaryDark"
+        android:backgroundTint="@color/mycolor"
         android:textSize="25dp"
 
         android:layout_below="@+id/user3"/>
     <TextView
         android:id="@+id/signin"
         android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
         android:layout_height="wrap_content"
-        android:text="Existing User!\n Go to Sign-in Page"
+        android:text="Login Now!"
         android:textAllCaps="false"
         android:backgroundTint="@android:color/darker_gray"
-        android:textSize="15dp"
-        android:textColor="@color/black"
+        android:textSize="20dp"
         android:textAlignment="center"
         android:layout_marginBottom="20dp"
         android:layout_below="@+id/signup">
@@ -71,6 +72,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:id="@+id/btnforgot"
         android:text="Forgot Password"
         android:textSize="20dp"

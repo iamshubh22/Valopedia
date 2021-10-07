@@ -34,10 +34,6 @@
                     android:icon="@drawable/ic_profile"
                     android:title="About Me" />
 
-                <item
-                    android:id="@+id/nav_connect"
-                    android:icon="@drawable/ic_connect"
-                    android:title="Lets Connect!" />
             </group>
         </menu>
     </item>

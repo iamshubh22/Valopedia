@@ -5,35 +5,46 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="10dp"
+    android:background="#8E7775"
     tools:context=".ResetActivity">
+    <ImageView
+        android:id="@+id/imgtop"
+        android:layout_width="450dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/l1" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/username_reset_text"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         android:textSize="20dp"
+        android:layout_below="@+id/imgtop"
         />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/password_reset"
-        android:layout_marginTop="50dp"
-        android:hint="Password"
+        android:layout_marginTop="30dp"
+        android:hint="Please Enter Password"
         android:layout_below="@+id/username_reset_text"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/repassword_text"
-        android:layout_marginTop="50dp"
-        android:hint="Re-type Password"
+        android:layout_marginTop="30dp"
+        android:hint="Plese Re-Enter Password"
         android:layout_below="@+id/password_reset"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnconfirm"
-        android:text="Confirm"
+        android:text="Update Password"
         android:textSize="20dp"
-        android:layout_marginTop="50dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:backgroundTint="@color/mycolor"
+        android:layout_marginTop="30dp"
         android:layout_below="@+id/repassword_text"
         />
 </RelativeLayout>

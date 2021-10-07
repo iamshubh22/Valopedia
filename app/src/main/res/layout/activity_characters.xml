@@ -510,43 +510,6 @@
 
         </RelativeLayout>
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <ImageView
-                android:id="@+id/imgViper"
-                android:layout_width="120dp"
-                android:layout_height="120dp"
-                android:src="@drawable/viper"
-                android:layout_margin="20dp"/>
-
-            <TextView
-                android:id="@+id/txtViper"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="VIPER"
-                android:layout_toRightOf="@id/imgViper"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="#ffffff"
-                android:layout_marginLeft="70dp"
-                android:layout_marginBottom="20dp"
-                android:layout_marginTop="40dp"/>
-
-            <Button
-                android:id="@+id/btnViper"
-                android:layout_width="100dp"
-                android:layout_height="35dp"
-                android:layout_toRightOf="@id/imgViper"
-                android:layout_below="@id/txtViper"
-                android:layout_alignParentRight="true"
-                android:background="@color/colorPrimary"
-                android:text="CHECKOUT"
-                android:textColor="#ffffff"
-                android:textStyle="bold"/>
-
-        </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -624,6 +587,43 @@
                 android:textStyle="bold"/>
 
         </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgV"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/viper"
+            android:layout_margin="20dp"/>
+
+        <TextView
+            android:id="@+id/txtV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VIPER"
+            android:layout_toRightOf="@id/imgV"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="70dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="40dp"/>
+
+        <Button
+            android:id="@+id/btnV"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_toRightOf="@id/imgV"
+            android:layout_below="@id/txtV"
+            android:layout_alignParentRight="true"
+            android:background="@color/colorPrimary"
+            android:text="CHECKOUT"
+            android:textColor="#ffffff"
+            android:textStyle="bold"/>
+        </RelativeLayout>
+
 
         <RelativeLayout
             android:layout_width="match_parent"

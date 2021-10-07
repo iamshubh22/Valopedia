@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#81A194"
+    tools:context=".viper">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:id="@+id/txtM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:text="VIPER"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imgtop"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="30dp"
+
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/viper" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:textColor="#ECE197"
+                android:textSize="17sp"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Viper wields toxic gases that run off of a refillable reserve. She can emit poison from a grenade or create a line wall with the vapors.Her ultimate basically creates a poison “room”, making her a great bomb planter."/>
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:textSize="25sp"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="1)Snake Bite"/>
+
+            <TextView
+                android:layout_below="@+id/txt1"
+                android:layout_marginTop="15dp"
+                android:id="@+id/textView"
+                android:padding="10dp"
+                android:textColor="#474328"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EQUIP a chemical launcher. FIRE to launch a canister that shatters upon hitting the floor, creating a lingering chemical zone that damages and slows enemies." />
+
+            <TextView
+                android:id="@+id/c1"
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"
+                android:text="Checkout Video->"/>
+
+            <FrameLayout
+                android:id="@+id/f1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <VideoView
+                    android:id="@+id/videoView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="30dp"
+                    />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:textSize="25sp"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="2)Poison Cloud"/>
+
+            <TextView
+                android:layout_below="@+id/txt1"
+                android:layout_marginTop="15dp"
+                android:id="@+id/textView2"
+                android:padding="10dp"
+                android:textColor="#474328"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EQUIP a gas emitter. FIRE to throw the emitter that perpetually remains throughout the round. RE-USE the ability to create a toxic gas cloud at the cost of fuel. This ability can be RE-USED more than once and can be picked up to be REDEPLOYED." />
+
+            <TextView
+                android:id="@+id/c2"
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"
+                android:text="Checkout Video->"/>
+
+            <FrameLayout
+                android:id="@+id/f2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <VideoView
+                    android:id="@+id/videoView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="30dp"
+                    />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:textSize="25sp"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="3)Toxic Screen"/>
+
+            <TextView
+                android:layout_below="@+id/txt1"
+                android:layout_marginTop="15dp"
+                android:id="@+id/textView3"
+                android:padding="10dp"
+                android:textColor="#474328"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EQUIP a gas emitter launcher. FIRE to deploy a long line of gas emitters. RE-USE the ability to create a tall wall of toxic gas at the cost of fuel. This ability can be RE-USED more than once." />
+
+            <TextView
+                android:id="@+id/c3"
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"
+                android:text="Checkout Video->"/>
+
+            <FrameLayout
+                android:id="@+id/f3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <VideoView
+                    android:id="@+id/videoView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="30dp"
+                    />
+            </FrameLayout>
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:textSize="25sp"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="4)Viper's Pit"/>
+
+            <TextView
+                android:layout_below="@+id/txt4"
+                android:layout_marginTop="15dp"
+                android:id="@+id/textView4"
+                android:padding="10dp"
+                android:textColor="#474328"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EQUIP a chemical sprayer. FIRE to spray a chemical cloud in all directions around Viper, creating a large cloud that reduces the vision range and maximum health of players inside of it." />
+
+            <TextView
+                android:id="@+id/c4"
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"
+                android:text="Checkout Video->"/>
+
+            <FrameLayout
+                android:id="@+id/f4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <VideoView
+                    android:id="@+id/videoView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="30dp"
+                    />
+            </FrameLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imgLow"
+                    android:layout_width="120dp"
+                    android:layout_height="90dp"
+                    android:layout_alignParentRight="true"
+
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/valo" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

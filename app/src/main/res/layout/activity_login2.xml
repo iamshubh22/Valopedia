@@ -1,82 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-
+    android:background="#8E7775"
     android:layout_height="match_parent"
     tools:context=".LoginActivity2">
     <ImageView
-        android:id="@+id/imageview"
-        android:layout_width="240dp"
-        android:layout_height="100dp"
-        android:src="@drawable/l1"
+        android:id="@+id/imgtop"
+        android:layout_width="450dp"
+        android:layout_height="250dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"/>
+        android:layout_marginTop="15dp"
+        android:src="@drawable/l1" />
 
-    />
+    <Space
+        android:id="@+id/space1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgtop" />
+
     <EditText
+        android:id="@+id/mainID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:padding="6dp"
-        android:id="@+id/usernameLogin"
-        android:hint="enter username"
+        android:layout_below="@id/space1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Enter The Username For Verification"
+        android:inputType="text"
+        android:textColor="#F0F6E8"
+        android:textStyle="bold" />
 
-        android:layout_below="@id/imageview"
-        android:textSize="20dp"
-        />
+    <Space
+        android:id="@+id/space2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mainID" />
+
     <EditText
-
-        android:id="@+id/passwordLogin"
+        android:id="@+id/mainpass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/usernameLogin"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:maxLines="1"
-        android:inputType="textPassword"
-        android:hint="Enter Password"/>
+        android:layout_below="@id/space2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Enter The Password For Verification"
+        android:inputType="text"
+        android:textColor="#F0F6E8"
+        android:textStyle="bold" />
+    <Space
+        android:id="@+id/space3"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:layout_below="@id/mainpass" />
 
-    />
     <Button
-
         android:id="@+id/btnlogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/passwordLogin"
-        android:layout_marginTop="20dp"
+        android:layout_below="@id/space3"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
-        android:background="@color/colorPrimary"
-        android:text="Log In"
-        android:textColor="#ffffff"
+        android:text="ENTER MY WORLD!!"
         android:textStyle="bold"
-        android:textSize="14sp"/>
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:backgroundTint="@color/mycolor"/>
 
     <TextView
         android:id="@+id/reg2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Register Yourself"
+        android:text="Forgot Password ?"
+        android:textSize="20sp"
         android:layout_below="@id/btnlogin"
-        android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
-        android:textSize="16sp"
-        android:padding="6dp"/>
-
+        android:layout_marginTop="10dp"
+        android:textColor="@color/main" />
     <TextView
         android:id="@+id/reg3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Forward Password"
+        android:text="Register Yourself Now !!"
+        android:textSize="20sp"
         android:layout_below="@id/reg2"
-        android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
-        android:textSize="16sp"
-        android:padding="6dp"/>
+        android:layout_marginTop="20dp"
+        android:textColor="@color/main" />
+
+
+    <ImageView
+        android:id="@+id/imgbelow"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/reg3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/valo" />
+
 
 </RelativeLayout>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#81A194"
+    tools:context=".astra">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:text="CYPHER"
+                android:textColor="@color/black"
+                android:textSize="40sp" />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:textColor="#ECE197"
+                android:textSize="17sp"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cypher is a spy who’s a master of gathering information through his camera and trip wires.He’s great on defense as he can hold a lot of real estate on his own, but he can also be useful on offense since by limiting potential flank routes or making preventing a defusal easier."/>
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:textSize="25sp"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="1)Trapwire"/>
+
+            <TextView
+                android:layout_below="@+id/txt1"
+                android:layout_marginTop="15dp"
+                android:id="@+id/textView"
+                android:padding="10dp"
+                android:textColor="#474328"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EQUIP a trapwire. FIRE to place a destructible and covert tripwire at the targeted location, creating a line that spans between the placed location and the wall opposite. Enemy players who cross a tripwire will be tethered, and dazed after a short period if they do not destroy the device in time. This ability can be picked up to be REDEPLOYED." />
+
+            <TextView
+                android:id="@+id/c1"
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"
+                android:text="Checkout Video->"/>
+
+            <FrameLayout
+                android:id="@+id/f1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <VideoView
+                    android:id="@+id/videoView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="30dp"
+                    />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:textSize="25sp"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="2)Cyber Cage"/>
+
+            <TextView
+                android:layout_below="@+id/txt1"
+                android:layout_marginTop="15dp"
+                android:id="@+id/textView2"
+                android:padding="10dp"
+                android:textColor="#474328"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EQUIP a cyber cage. FIRE to toss the cyber cage in front of Cypher. ACTIVATE to create a zone that blocks vision and slows enemies who pass through it." />
+
+            <TextView
+                android:id="@+id/c2"
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"
+                android:text="Checkout Video->"/>
+
+            <FrameLayout
+                android:id="@+id/f2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <VideoView
+                    android:id="@+id/videoView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="30dp"
+                    />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:textSize="25sp"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="3)Spycam"/>
+
+            <TextView
+                android:layout_below="@+id/txt1"
+                android:layout_marginTop="15dp"
+                android:id="@+id/textView3"
+                android:padding="10dp"
+                android:textColor="#474328"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EQUIP a spycam. FIRE to place the spycam at the targeted location. RE-USE this ability to take control of the camera's view. While in control of the camera, FIRE to shoot a marking dart. This dart will reveal the location of any player struck by the dart." />
+
+            <TextView
+                android:id="@+id/c3"
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"
+                android:text="Checkout Video->"/>
+
+            <FrameLayout
+                android:id="@+id/f3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <VideoView
+                    android:id="@+id/videoView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="30dp"
+                    />
+            </FrameLayout>
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:textSize="25sp"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="4)Neural Theft"/>
+
+            <TextView
+                android:layout_below="@+id/txt4"
+                android:layout_marginTop="15dp"
+                android:id="@+id/textView4"
+                android:padding="10dp"
+                android:textColor="#474328"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="INSTANTLY use on a dead enemy player in your crosshairs to reveal the location of all living enemy players." />
+
+            <TextView
+                android:id="@+id/c4"
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"
+                android:text="Checkout Video->"/>
+
+            <FrameLayout
+                android:id="@+id/f4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <VideoView
+                    android:id="@+id/videoView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="30dp"
+                    />
+            </FrameLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imgLow"
+                    android:layout_width="120dp"
+                    android:layout_height="90dp"
+                    android:layout_alignParentRight="true"
+
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/valo" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

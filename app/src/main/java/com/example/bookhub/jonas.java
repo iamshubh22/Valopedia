@@ -120,7 +120,7 @@ public class jonas extends AppCompatActivity {
     }
 
     public void LOGIN(){
-        Intent intent= new Intent(this,LOGIN.class);
+        Intent intent= new Intent(this,LoginActivity2.class);
         startActivity(intent);
         Toast.makeText(jonas.this,
                 "HAVE A GOOD DAY",

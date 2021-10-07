@@ -25,7 +25,7 @@ class hindi : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_hindi)
-        title="VALOPEDIA ->HINDI STREAMERS"
+        title="VALOPEDIA->HINDI STREAMERS"
 
         btnlog=findViewById(R.id.btnlog)
         modes1=findViewById(R.id.modes1)
@@ -120,7 +120,7 @@ class hindi : AppCompatActivity() {
                 this@hindi , "HAVE A GOOD DAY!!",
                 Toast.LENGTH_SHORT
             ).show()
-            val intent1= Intent(this@hindi ,LOGIN::class.java)
+            val intent1= Intent(this@hindi ,LoginActivity2::class.java)
             startActivity(intent1)
             finish()
         }

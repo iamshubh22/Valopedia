@@ -37,7 +37,7 @@ class devlp : AppCompatActivity() {
                 this@devlp, "HAVE A GOOD DAY!!",
                 Toast.LENGTH_SHORT
             ).show()
-            val intent1= Intent(this@devlp,LOGIN::class.java)
+            val intent1= Intent(this@devlp,LoginActivity2::class.java)
             startActivity(intent1)
             finish()
         }
