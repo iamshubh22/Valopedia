@@ -3,12 +3,81 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#D5D2D2"
+    android:background="#96B388"
     android:layout_height="match_parent"
     tools:context=".gallery">
 
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+<LinearLayout
+    android:id="@+id/l1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:ignore="MissingConstraints">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/txtM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="VALOPEDIA"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WELCOME TO MY WOLRD !"
+            android:layout_below="@+id/txtM"
+            android:textSize="15sp"
+            android:textColor="#000000"/>
+
+        <ImageView
+            android:id="@+id/imgtop"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="50dp"
+
+            android:layout_marginRight="-47dp"
+            android:src="@drawable/l1" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="15sp"
+            android:lineSpacingExtra="5dp"
+            android:textStyle="normal"
+            android:textColor="#EFE378"
+            android:layout_margin="10dp"
+            android:text="Hello Everyone these are our top 20 suggested images that you can use them as your wallpaper and display pictures"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
 
     <GridView
+        android:layout_below="@+id/l1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:numColumns="3"
@@ -24,5 +93,7 @@
 
 
     </GridView>
+
+    </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

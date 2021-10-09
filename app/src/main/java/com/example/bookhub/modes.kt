@@ -12,21 +12,7 @@ class modes : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_modes)
 
-        title="VALOPEDIA ->MODES"
-
-        logBtn_mode=findViewById(R.id.logBtn_mode)
-
-
-        logBtn_mode.setOnClickListener()
-        {
-            Toast.makeText(
-                this@modes, "HAVE A GOOD DAY!!",
-                Toast.LENGTH_SHORT
-            ).show()
-            val intent1= Intent(this@modes,LoginActivity2::class.java)
-            startActivity(intent1)
-            finish()
-        }
+        title="VALOPEDIA->MODES"
 
     }
 }

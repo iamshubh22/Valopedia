@@ -9,238 +9,351 @@
         android:orientation="vertical">
 
         <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
 
-            <ImageView
-                android:id="@+id/imgOne"
-                android:layout_width="500dp"
-                android:layout_height="200dp"
-                android:layout_centerInParent="true"
-                android:src="@drawable/unrated"/>
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:text="GAME MODES"
+                android:textColor="@color/black"
+                android:textSize="40sp" />
 
-            <Button
-                android:id="@+id/mode1BTN"
-                android:layout_width="200dp"
-                android:layout_height="150dp"
-
+            <TextView
+                android:layout_below="@+id/name"
                 android:layout_marginTop="15dp"
-                android:layout_below="@id/imgOne"
-                android:layout_centerHorizontal="true"
-                android:backgroundTint="#511281"
-                android:text="EXPLORE UNRATED"
-                android:textColor="#ffffff"
-                android:textStyle="bold"/>
+                android:id="@+id/textView4"
+                android:padding="10dp"
+                android:textColor="#474328"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Game Modes are different types of modes that can be played in VALORANT. Most modes can be categorized as either Plant/Defuse-style or Deathmatch-style. Players can access five modes at a time, with four permanent (Unrated, Competitive, Spike Rush, and Deathmatch) and one other that is part of a rotating game mode queue that changes every patch (Escalation, Replication, and Snowball Fight)." />
 
-        </RelativeLayout>
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:textSize="25sp"
+                android:padding="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_below="@+id/textView4"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text="List of Different Modes"/>
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/t"
+                android:layout_width="wrap_content"
+                android:textSize="30sp"
+                android:layout_marginTop="25dp"
+                android:layout_below="@+id/t3"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="1) Plant/Defuse"/>
+
+            <TextView
+                android:layout_below="@+id/t"
+                android:layout_marginTop="15dp"
+                android:id="@+id/textView"
+                android:padding="10dp"
+                android:textColor="#474328"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plant/Defuse is a type of game mode where you play as an Attacker or a Defender. The Attacker's objective is to plant the spike or kill all living Defenders, while the Defender's objective is to prevent the Attacker to plant the spike (either by killing all living Attackers or preventing the Attackers from planting within the round time limit), or defuse the spike if it has already been planted (killing all living Attackers is not enough to win the round in this case). These modes are played in rounds where participants only have one life per round. Upon being killed, players must either wait for the next round to begin or be revived by Sage's Resurrection.png Resurrection to enter the battlefield again.Most Plant/Defuse modes give access to a shop, where players can spend credits to obtain weapons, shields, and abilities." />
+
+            <TextView
+                android:id="@+id/c"
+                android:layout_width="wrap_content"
+                android:textSize="25sp"
+                android:padding="15dp"
+                android:layout_marginLeft="40dp"
+                android:layout_below="@+id/textView"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="a) Competitive"/>
 
             <ImageView
-                android:id="@+id/imgTwo"
-                android:layout_width="500dp"
+                android:layout_below="@+id/c"
+                android:layout_width="wrap_content"
                 android:layout_height="200dp"
-                android:layout_centerInParent="true"
+                android:id="@+id/ic"
                 android:src="@drawable/comp"/>
 
-            <Button
-                android:id="@+id/mode2BTN"
-                android:layout_width="200dp"
-                android:layout_height="150dp"
-
+            <TextView
+                android:layout_below="@+id/ic"
                 android:layout_marginTop="15dp"
-                android:layout_below="@id/imgTwo"
-                android:layout_centerHorizontal="true"
-                android:backgroundTint="#511281"
-                android:text="EXPLORE COMPETITIVE"
-                android:textColor="#ffffff"
-                android:textStyle="bold"/>
+                android:id="@+id/cd"
+                android:padding="10dp"
+                android:textColor="#474328"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Competitive has the same rules as Unrated. Two teams of five players select their agents. One team starts on Attack and the other on Defense. To win a round, the attacking team must kill all enemy Defenders or detonate the spike. The defending team must kill all enemy attackers, prevent the spike from being planted, or (if the spike has been planted) defuse the spike (killing all enemy attackers will no longer be enough to win the round should defusing be required). Before each round start, players have 30 seconds to buy weapons and utility, get into position, and set up any utility. Each round lasts 100 seconds, which is reset to 40 seconds if the spike is planted. The game is split into two halves; after 12 rounds, teams will swap sides. The first team to reach 13 rounds wins the game.\n \n
 
-        </RelativeLayout>
+Competitive does however have a different system for resolving 12-12 games, going into Overtime instead of Sudden Death. In Overtime, the teams play two rounds, one on attack and one on defense. For all players in every round, they get 5,000 credits and have their ultimate points set to being 3 short of what they need to use it. If a team wins both these rounds, they win the game. If both teams win one round each, Overtime repeats again and again until either one team wins both rounds and wins the game or the players vote to end the game with the result being a draw for both teams. Each vote will happen with every new Overtime set. To end the match in the draw, the first vote needs 6 votes in favor, the second vote needs 3 votes in favor, and every other afterwards needs only 1 vote in favor.\n \n
+
+There are 8 ranks in VALORANT; Iron, Bronze, Silver, Gold, Platinum, Diamond, Immortal, and Radiant. Ranks Iron-Immortal are divided into three tiers from Tier 1 to Tier 3, with Tier 3s being the highest tier within a rank. Players in Immortal and Radiant ranks are featured on a leaderboard." />
 
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/r"
+                android:layout_width="wrap_content"
+                android:textSize="25sp"
+                android:padding="15dp"
+                android:layout_marginLeft="40dp"
+                android:layout_below="@+id/cd"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="b) Replication"/>
 
             <ImageView
-                android:id="@+id/imgThree"
-                android:layout_width="500dp"
+                android:layout_below="@+id/r"
+                android:layout_width="wrap_content"
                 android:layout_height="200dp"
-                android:layout_centerInParent="true"
-                android:src="@drawable/spike"/>
-
-            <Button
-                android:id="@+id/mode3BTN"
-                android:layout_width="200dp"
-                android:layout_height="150dp"
-                android:layout_marginTop="15dp"
-                android:layout_below="@id/imgThree"
-                android:layout_centerHorizontal="true"
-                android:backgroundTint="#511281"
-                android:text="EXPLORE SPIKE RUSH"
-                android:textColor="#ffffff"
-                android:textStyle="bold"/>
-
-        </RelativeLayout>
-
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <ImageView
-                android:id="@+id/imgFour"
-                android:layout_width="500dp"
-                android:layout_height="200dp"
-                android:layout_centerInParent="true"
+                android:id="@+id/ir"
                 android:src="@drawable/repli"/>
 
-            <Button
-                android:id="@+id/mode4BTN"
-                android:layout_width="200dp"
-                android:layout_height="150dp"
+            <TextView
+                android:layout_below="@+id/ir"
                 android:layout_marginTop="15dp"
-                android:layout_below="@id/imgFour"
-                android:layout_centerHorizontal="true"
-                android:backgroundTint="#511281"
-                android:text="EXPLORE REPLICATION"
-                android:textColor="#ffffff"
-                android:textStyle="bold"/>
+                android:id="@+id/rd"
+                android:padding="10dp"
+                android:textColor="#474328"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Replication is a best-of-nine spike (Plant/Defuse) mode with 80 second rounds. In agent select, players vote for an agent they want to play. The game then randomly selects one of the choices and all players on that team are given that agent. All players are given the same agent regardless of whether they own them or not, but a player cannot cast a vote for an agent they haven't unlocked.
 
-        </RelativeLayout>
+Every round, Signature and Basic abilities are refreshed, players gain an additional ultimate point (except for Overtime rounds), and weapons and shields are reset. All players are given a set amount of credits each round that increases as the half progresses, regardless of whether they won or lost the previous round" />
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/s"
+                android:layout_width="wrap_content"
+                android:textSize="25sp"
+                android:padding="15dp"
+                android:layout_marginLeft="40dp"
+                android:layout_below="@+id/rd"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="c) Spike Rush"/>
 
             <ImageView
-                android:id="@+id/imgFive"
-                android:layout_width="500dp"
+                android:layout_below="@+id/s"
+                android:layout_width="wrap_content"
                 android:layout_height="200dp"
-                android:layout_centerInParent="true"
+                android:id="@+id/is"
+                android:src="@drawable/spike"/>
+
+            <TextView
+                android:layout_below="@+id/is"
+                android:layout_marginTop="15dp"
+                android:id="@+id/sd"
+                android:padding="10dp"
+                android:textColor="#474328"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Spike Rush is a faster-paced game mode. Pre-round time is reduced to 20 seconds (usually 30) and game time is reduced to 80 seconds (usually 100). While the attackers have less time to plant, they also have the advantage of each player having a spike. The game ends when one team reaches 4 round wins, teams switch sides after 3 rounds.All players are given the same loadout and all of the abilities that are usually purchased in the shop. The loadout given to the player on the first round is a Sidearm. Each loadout given to each player ascends in value each round of the half. On the first round the loadout is a sidearm with no shields, on the second round the loadout is a primary that is equivalent to or less than 2700 credits with light shields most of the time or heavy shields if the weapon is a Guardian, and on the third round and the overtime round the loadout is a primary that is equivalent to or greater than 2700 credits with heavy armor
+
+Orbs that provide buffs and inflict debuffs spawn at various locations on the map, their specific effects are detailed on the Orbs page. Orbs are hidden from the map until a few seconds before the barrier drops." />
+
+            <TextView
+                android:id="@+id/u"
+                android:layout_width="wrap_content"
+                android:textSize="25sp"
+                android:padding="15dp"
+                android:layout_marginLeft="40dp"
+                android:layout_below="@+id/sd"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="d) Unrated"/>
+
+            <ImageView
+                android:layout_below="@+id/u"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:id="@+id/iu"
+                android:src="@drawable/unrated"/>
+
+            <TextView
+                android:layout_below="@+id/iu"
+                android:layout_marginTop="15dp"
+                android:id="@+id/ud"
+                android:padding="10dp"
+                android:textColor="#474328"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Unrated is VALORANT's standard Plant/Defuse mode. Teams play 12 rounds on Attack or Defense, then swap to the other side for the next 12 rounds. The first to 13 rounds wins (Bo25), with a final Sudden Death round played should the game reach a 12-12 scoreline.
+
+This mode lasts for 30-40 minutes" />
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:textSize="30sp"
+                android:layout_marginTop="25dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/ud"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="2) Deathmatch"/>
+
+            <TextView
+                android:layout_below="@+id/t2"
+                android:layout_marginTop="15dp"
+                android:id="@+id/textView2"
+                android:padding="10dp"
+                android:textColor="#474328"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deathmatch is a type of game mode where the objective is tied in some way to killing enemies. These modes can either be free-for-all or team based. Players have an infinite amount of lives and upon being killed will respawn at a random location after a short delay." />
+
+            <TextView
+                android:id="@+id/d"
+                android:layout_width="wrap_content"
+                android:textSize="25sp"
+                android:padding="15dp"
+                android:layout_marginLeft="40dp"
+                android:layout_below="@+id/textView2"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="a) Deathmatch "/>
+
+            <ImageView
+                android:layout_below="@+id/d"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:id="@+id/id"
                 android:src="@drawable/death"/>
 
-            <Button
-                android:id="@+id/mode5BTN"
-                android:layout_width="200dp"
-                android:layout_height="150dp"
+            <TextView
+                android:layout_below="@+id/id"
                 android:layout_marginTop="15dp"
-                android:layout_below="@id/imgFive"
-                android:layout_centerHorizontal="true"
-                android:backgroundTint="#511281"
-                android:text="EXPLORE DEATHMATCH"
-                android:textColor="#ffffff"
-                android:textStyle="bold"/>
+                android:id="@+id/dd"
+                android:padding="10dp"
+                android:textColor="#474328"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deathmatch is a 14-player free-for-all game mode designed to allow players to hone their gunplay mechanics or warm up before playing Competitive. Each player loads into a random map with a random agent that they own. Players start in a brief warm-up phase before the real game starts. Players cannot buy abilities but are automatically given Heavy Shields. They can buy whatever weapons they want.
 
-        </RelativeLayout>
+Once the game starts, players spawn randomly across the map. Killing enemies grants a full reload of the equipped weapon (Machine guns get 30 bullets back instead) and drops health kits on the victim's body that can be picked up to fully restores a player's health and shields. Upon being killed, players will respawn in a random location and receive a brief pulse on their minimap showing the location of all enemy players. They respawn with the weapons they previously owned, and are invulnerable for either a few seconds or until they move. Once either the kill limit of 40 or the time limit of 9 minutes has been reached, the game will end.
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+" />
+
+
+            <TextView
+                android:id="@+id/e"
+                android:layout_width="wrap_content"
+                android:textSize="25sp"
+                android:padding="15dp"
+                android:layout_marginLeft="40dp"
+                android:layout_below="@+id/dd"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="b) Escalation"/>
 
             <ImageView
-                android:id="@+id/imgSix"
-                android:layout_width="500dp"
+                android:layout_below="@+id/e"
+                android:layout_width="wrap_content"
                 android:layout_height="200dp"
-                android:layout_centerInParent="true"
+                android:id="@+id/ie"
                 android:src="@drawable/esca"/>
 
-            <Button
-                android:id="@+id/mode6BTN"
-                android:layout_width="200dp"
-                android:layout_height="150dp"
+            <TextView
+                android:layout_below="@+id/ie"
                 android:layout_marginTop="15dp"
-                android:layout_below="@id/imgSix"
-                android:layout_centerHorizontal="true"
-                android:backgroundTint="#511281"
-                android:text="EXPLORE ESCALATION"
-                android:textColor="#ffffff"
-                android:textStyle="bold"/>
+                android:id="@+id/ed"
+                android:padding="10dp"
+                android:textColor="#474328"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Escalation is a 5v5 team deathmatch style mode where players kill and race the enemy team through a cycle of different weapons and abilities, advancing together as a team through Escalation levels. Players load into game with a random agent. The first team to finish level 12, or the furthest along in 10 minutes, wins the game.
 
-        </RelativeLayout>
+There are 12 Escalation levels, and each level has a specific weapon or ability that the player is equipped with. Players do not have any other weapons or abilities other than those granted by the game. Each player has their own individual weapon level, and must earn at least 1 kill on a weapon to unlock the next weapon level. Other players on the team can still advance Escalation levels even if some players are on an older weapon level.
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+Killing an enemy grants points for the team and drops a health pack on the victim's body that lasts for 10 seconds and can be picked up to fully restore the user's health, shields, and ammo. Teams must earn 7 points on a level to advance to the next one. A kill by players on the team's current level earns 1 point, and a kill by players on a previous level earns .5 points. upon being killed, players will respawn in a random location and are invulnerable for either 5 seconds or until they move." />
+
+            <TextView
+                android:id="@+id/sn"
+                android:layout_width="wrap_content"
+                android:textSize="25sp"
+                android:padding="15dp"
+                android:layout_marginLeft="40dp"
+                android:layout_below="@+id/ed"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="c) Snowball Fight"/>
 
             <ImageView
-                android:id="@+id/imgSeven"
-                android:layout_width="900dp"
+                android:layout_below="@+id/sn"
+                android:layout_width="wrap_content"
                 android:layout_height="200dp"
+                android:id="@+id/isn"
                 android:layout_centerInParent="true"
                 android:src="@drawable/snow"/>
 
-            <Button
-                android:id="@+id/mode7BTN"
-                android:layout_width="200dp"
-                android:layout_height="150dp"
+            <TextView
+                android:layout_below="@+id/isn"
                 android:layout_marginTop="15dp"
-                android:layout_below="@id/imgSeven"
-                android:layout_centerHorizontal="true"
-                android:backgroundTint="#511281"
-                android:text="EXPLORE SNOW BALL FIGHT"
-                android:textColor="#ffffff"
-                android:textStyle="bold"/>
+                android:id="@+id/snd"
+                android:padding="10dp"
+                android:textColor="#474328"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Snowball Fight is a 5v5 team deathmatch-style mode where the first team to 50 kills wins. All players load into game with an agent of their choice and only have access to a Snowball Launcher. This weapon fires projectile-based snowballs that have a travel time and an arc. The Snowball Launcher has infinite ammo but can only fire one snowball at a time with a small reload in between shots. Snowballs deal 150 damage upon coming into contact with an enemy player.
 
-        </RelativeLayout>
+During the match, portals and 'Gift Rifts' appear to drop gifts on the ground that could be shot to reveal an orb. These orbs can be picked up by players to give them one of four temporary power ups" />
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tp"
+                android:layout_width="wrap_content"
+                android:textSize="30sp"
+                android:layout_marginTop="25dp"
+                android:layout_below="@+id/snd"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="3) Practice Game Modes"/>
 
             <ImageView
-                android:id="@+id/imgEight"
-                android:layout_width="500dp"
+                android:layout_below="@+id/tp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
                 android:layout_height="200dp"
-                android:layout_centerInParent="true"
+                android:id="@+id/itp"
                 android:src="@drawable/range"/>
 
-            <Button
-                android:id="@+id/mode8BTN"
-                android:layout_width="200dp"
-                android:layout_height="150dp"
+
+            <TextView
+                android:layout_below="@+id/itp"
                 android:layout_marginTop="15dp"
-                android:layout_below="@id/imgEight"
-                android:layout_centerHorizontal="true"
-                android:backgroundTint="#511281"
-                android:text="EXPLORE RANGE"
-                android:textColor="#ffffff"
-                android:textStyle="bold"/>
+                android:id="@+id/textViewtp"
+                android:textColor="#474328"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Practice Game Modes are a series of modes that you can play in the Range. These series of modes will let you have a taste of how VALORANT games will work.\n \n
+
+\t \t  Shooting Test  \n \n
+Test your gun skills with a variety of shooting challenges.\n \n
+\t \t  Spike Planting  \n \n
+Take control of the site, plant the Spike, and defend until detonation.\n \n
+\t \t  Spike Defuse  \n \n
+Methodically defeat enemies and defuse the Spike before time runs out!" />
 
         </RelativeLayout>
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <ImageView
-                android:id="@+id/imgLow"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginTop="40dp"
-                android:layout_marginLeft="50dp"
-                android:src="@drawable/l1" />
-
-            <Button
-                android:id="@+id/logBtn_mode"
-                android:layout_width="100dp"
-                android:layout_height="70dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentBottom="true"
-                android:backgroundTint="#511281"
-                android:text="LOG OUT"
-                android:textStyle="normal"
-                android:textColor="#ffffff"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="40dp"/>
-
-        </RelativeLayout>
-
-
     </LinearLayout>
 </ScrollView>

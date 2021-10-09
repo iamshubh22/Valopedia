@@ -50,7 +50,13 @@
         <activity android:name=".ResetActivity" />
         <activity android:name=".PasswordActivity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".LoginActivity2" />
+        <activity android:name=".LoginActivity2" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
         <activity
             android:name=".DBHelper"
             tools:ignore="Instantiatable" />
@@ -79,13 +85,11 @@
         <activity
             android:name=".PAGE_FIRST"
             android:theme="@style/Theme.BookHub1" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
         </activity>
-        <activity android:name=".modes" />
+        <activity android:name=".modes" >
+
+        </activity>
         <activity android:name=".message_screen" />
         <activity android:name=".menu" />
         <activity android:name=".characters" />
