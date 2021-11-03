@@ -1,7 +1,5 @@
 package com.example.bookhub
 
-import android.annotation.SuppressLint
-import android.app.ProgressDialog.show
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -80,7 +78,7 @@ class PAGE_FIRST : AppCompatActivity() {
                         .show()
                 }
                 R.id.nav_profile -> {
-                    intentD = Intent(this@PAGE_FIRST, devlp::class.java)
+                   intentD = Intent(this@PAGE_FIRST, social::class.java)
                     startActivity(intentD)
                     Toast.makeText(this@PAGE_FIRST, "MY PROFILE IS HERE", Toast.LENGTH_SHORT)
                         .show()

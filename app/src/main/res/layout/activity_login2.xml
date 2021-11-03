@@ -48,7 +48,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
         android:hint="Enter The Password For Verification"
-        android:inputType="text"
+        android:inputType="textPassword"
         android:textColor="#F0F6E8"
         android:textStyle="bold" />
     <Space
